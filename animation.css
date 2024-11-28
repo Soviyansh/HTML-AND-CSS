@@ -1,0 +1,38 @@
+div{
+    height:100px;
+    width:400px;
+    background-color: darkcyan;
+    animation-name: fontanimation;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-name: bgcolor;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fontanimation{
+    0%{
+        font-size: 20px;                                   
+    }
+    30%{
+        font-size: 30px;
+        border-color: aquamarine;
+    }
+    70%{
+        font-size: 20px;
+        background-color: brown;
+    }
+    100%{
+        font-size: 40px;
+        background-color: blue;
+    }
+}
+@keyframes bgcolor
+{
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: black;
+    }
+}

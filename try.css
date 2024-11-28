@@ -1,0 +1,9 @@
+button{
+    height:300px;
+    width:500px;
+    background-color: aqua;
+    border: 4px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url("https://media.licdn.com/dms/image/D4E12AQG0hyhZmq0AyQ/article-cover_image-shrink_600_2000/0/1700488940348?e=2147483647&v=beta&t=eZtDe_xSbm65L-mR1tnM8vnfMpM3aWcSe8rw8o7sjSs");
+}

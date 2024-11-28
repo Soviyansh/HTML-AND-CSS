@@ -1,0 +1,22 @@
+.container
+{
+    height:300px;
+    width:500px;
+    border: 8px solid red;
+    background-color:black; 
+    display: grid;
+    text-align: center;
+    grid-template-rows:50px 50px 50px 50px 50px ;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+}
+.items
+{
+    height: 70px;
+    width:100px;
+    background-color: aliceblue;
+    text-align: center;
+    border:3px solid red;
+    padding: 2px 2px 2px 2px ;
+    margin: auto; 
+
+}

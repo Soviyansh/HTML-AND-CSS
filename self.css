@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+}
+.main_box {
+    background:url("https://media.licdn.com/dms/image/v2/C4E1BAQEGNewnWG9Bvw/company-background_10000/company-background_10000/0/1633750267935/bvdu_cover?e=2147483647&v=beta&t=L8kynfueiMK4kTaH3pPd7nBoGQw_DKyvqDjjR4DsVrc");
+    height:100vh;
+    background-size: contain;
+}
+.btn_one{
+    position:absolute;
+    left: 16px;
+    line-height: 60px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sidebar_menu{
+    position: fixed;
+    left=-fef200px;
+    height:100vh;
+    width:350px;
+    background-color: rgba(255,255,255,0.3);
+    box-shadow: 0px 0px 2px rgba(255,10,255,0.6);
+    line-height: 60px;
+}
+.sidebar_menu.logo {
+    position: absolute;
+    line-height: 60px;
+    width:100%;
+    box-shadow: 0px 0px 3px  rgba(255,255,255,0.3);
+    left:4px
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left:60px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sidebar_menu .btn_two {
+    color: black;
+    font-size: 30px;
+    font-weight: 400px;
+    position: absolute;
+    left:300px;
+    line-height: 60px;
+}
+.sidebar_menu .menu li {
+    margin:6px;
+    padding:15px 20px;
+
+
+}
+.sidebar_menu .menu a,i{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu i{
+    padding:8px;
+}
+.sidebar_menu .socialmedia i{
+color: white;
+opacity: 0.5;
+padding:0px 5px;
+
+}
+#check
+{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 1px 1px 2px black;
+}

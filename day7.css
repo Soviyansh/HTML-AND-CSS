@@ -1,0 +1,15 @@
+div{
+    border:3px solid red;
+    height: 100px;
+    width:600px;
+    background-color: aqua;
+}
+div{
+    border-left-color:blue;
+    border-right-color:brown;
+    border-style:dashed;
+    border-radius:20px;
+    padding:10px 5px 10px 5px;
+    margin:20px;
+    margin-left:40px;
+}

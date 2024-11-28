@@ -1,0 +1,19 @@
+.card
+{
+    background-color: azure;
+    border:5px solid black;
+    display:inline-block;
+    border-radius: 20px 20px 20px 20px;
+    margin:20px;
+    padding: 15px;
+
+}
+img{
+    width:100%;
+    border-radius: 25%;
+}
+#pet{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
